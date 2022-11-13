@@ -19,15 +19,15 @@ CREATE TABLE  Customer (
   phone       VARCHAR(20)
 );
 
-INSERT INTO Customer VALUES (1, '박지성', '영국 맨체스타', '000-5000-0001');
-INSERT INTO Customer VALUES (2, '김연아', '대한민국 서울', '000-6000-0001');
-INSERT INTO Customer VALUES (3, '장미란', '대한민국 강원도', '000-7000-0001');
-INSERT INTO Customer VALUES (4, '추신수', '미국 클리블랜드', '000-8000-0001');
-INSERT INTO Customer VALUES (5, '박세리', '대한민국 대전',  NULL);
+INSERT INTO Customer VALUES (1, '박지성', '영국 맨체스타', '000-5000-0001');  
+INSERT INTO Customer VALUES (2, '김연아', '대한민국 서울', '000-6000-0001');  
+INSERT INTO Customer VALUES (3, '장미란', '대한민국 강원도', '000-7000-0001');  
+INSERT INTO Customer VALUES (4, '추신수', '미국 클리블랜드', '000-8000-0001');  
+INSERT INTO Customer VALUES (5, '박세리', '대한민국 대전',  NULL);  
 
-COMMIT;
+COMMIT;  
 
-index.php 
+index.php   
   => SELECT * from Customer 쿼리르 통해 Customer Table의 정보를 출력한다. 
 
 Insert 
