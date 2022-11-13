@@ -1,5 +1,5 @@
-1. cd /var/www/html
-2. git clone https://github.com/ghkdtlwns987/DB_Query.git
+cd /var/www/html
+git clone https://github.com/ghkdtlwns987/DB_Query.git
 
 !! MYSQL password : root !!
 
