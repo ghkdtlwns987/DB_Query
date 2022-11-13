@@ -8,8 +8,7 @@
   <title>DB Test</title>
 </head>
 <body>
-  <h1>게시판</h1>
-  <h2>글 목록</h2>
+  <h1>DB_Query</h1>
   <?php
       $conn = mysqli_connect("localhost:3306", "root",  "root", "madang");
       if(!$conn){
@@ -28,6 +27,7 @@
           }
 ?>
 <br></br>
+<h2> SELECT * FROM Customer</h2>
 <?php
         $sql = "SELECT * FROM Customer";
         $result = mysqli_query($conn, $sql);
