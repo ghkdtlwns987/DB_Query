@@ -27,6 +27,9 @@ INSERT INTO Customer VALUES (5, '박세리', '대한민국 대전',  NULL);
 
 COMMIT;  
 
+혹은  SQL > source /var/www/html/Customer.sql  
+만약 Customer Table 이 존재하고 비밀번호가 root 로 설정되어 있다면 바로 사용하면 됩니다.  
+
 index.php   
   => SELECT * from Customer 쿼리르 통해 Customer Table의 정보를 출력한다. 
 
